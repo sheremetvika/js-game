@@ -1,0 +1,199 @@
+html {
+	height: 100%;
+	
+
+}
+
+#game {
+	position: relative;
+	top: 50px;
+	width: 600px;
+	height: 800px;
+	margin:  0 auto;
+	border: 3px solid #B22222;
+	overflow: hidden;
+	border-radius: 20px 30px;
+}
+
+#game img {
+	width: 100%;
+	height: 100%;
+}
+
+/* Стили для микробов*/
+#microb1,
+#microb2,
+#microb3,
+#microb4 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	transition: all 3s;
+	display: block;
+	z-index: 999999;
+}
+#microb1 img,
+#microb2 img,
+#microb3 img,
+#microb4 img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#start-block {
+	width: 100%;
+	height: 100%;
+	background: #1818b5e0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#start-button {
+	position: absolute;
+	top: 250px;
+	left: 195px;
+	background-color: #1b1b6fe0; 
+	border: none;
+	color: white;
+	padding: 40px 70px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	border: 2px solid red;
+}
+
+#description1 {
+	position: absolute;
+	color: black;
+	top: 150px;
+	left: 250px;
+	
+}
+
+#description2 {
+	position: absolute;
+	color: black;
+	top: 200px;
+	left: 150px;
+
+}
+  	
+
+#lifes {
+	top: -700px;
+    background: radial-gradient(at top, #3f7ccc, #001e42);
+    border: 3px solid #B22222;
+    width: 200px;
+    height: 318px;
+    position: relative;
+    left: 450px;
+    margin: 0 auto;
+    border-radius: 20px 30px;
+    display: none;
+}
+
+#lifer {
+	width: 40%;
+	margin-top: 28px;
+}
+
+#legkie {
+    width: 42px;
+    margin-top: 97px;
+    left: 19px; 
+    position: absolute;
+}
+
+#p4 {
+	margin: 0 auto;
+    display: inline;
+    top: 28px;
+    position: absolute;
+    left: 100px;
+    font-size: 26px;
+    text-shadow: #ec2626 1px 1px 0, #da5050 2px 2px 0, #da7171 3px 3px 0, #da7171 4px 4px 0, #b22222 5px 5px 0;
+    font: bold 2em Arial, sans-serif;
+}
+
+#p1 {
+	margin: 0 auto;
+    display: inline;
+    top: 97px;
+    position: absolute;
+    left: 100px;
+    font-size: 26px;
+    text-shadow: #ec2626 1px 1px 0, #da5050 2px 2px 0, #da7171 3px 3px 0, #da7171 4px 4px 0, #b22222 5px 5px 0;
+    font: bold 2em Arial, sans-serif;
+}
+
+#heart {
+    position: absolute;
+    width: 42px;
+    margin-top: 160px;
+    left: 19px;
+}
+
+#p2 {
+	margin: 0 auto;
+    display: inline;
+    top: 167px;
+    position: absolute;
+    left: 100px;
+    font-size: 26px;
+    text-shadow: #ec2626 1px 1px 0, #da5050 2px 2px 0, #da7171 3px 3px 0, #da7171 4px 4px 0, #b22222 5px 5px 0;
+    font: bold 2em Arial, sans-serif;
+}
+
+#kishki {
+	position: absolute;
+    width: 42px;
+    margin-top: 236px;
+    left: 19px;
+}
+
+#p3 {
+	margin: 0 auto;
+    display: inline;
+    top: 237px;
+    position: absolute;
+    left: 100px;
+    font-size: 26px;
+    text-shadow: #ec2626 1px 1px 0, #da5050 2px 2px 0, #da7171 3px 3px 0, #da7171 4px 4px 0, #b22222 5px 5px 0;
+    font: bold 2em Arial, sans-serif;
+}
+
+#koniec-igra {
+	width: 100%;
+	height: 100%;
+	background: #1818b5e0;
+	position: absolute;
+	top: 0;
+	text-align: center;
+}
+
+#time1 {
+    top: 240px;
+    left: 100px;
+    margin: 0 auto;
+    display: inline;
+    top: 275px;
+    position: absolute;
+    left: 100px;
+    font-size: 26px;
+    text-shadow: #ec2626 1px 1px 0, #da5050 2px 2px 0, #da7171 3px 3px 0, #da7171 4px 4px 0, #b22222 5px 5px 0;
+    font: bold 2em Arial, sans-serif;
+
+}
+
+#p5 {
+	margin: 0 auto;
+    display: inline;
+    top: 268px;
+    position: absolute;
+    left: 23px;
+    font-size: 26px;
+    text-shadow: #ec2626 1px 1px 0, #da5050 2px 2px 0, #da7171 3px 3px 0, #da7171 4px 4px 0, #b22222 5px 5px 0;
+    font: bold 2em Arial, sans-serif;
+}
